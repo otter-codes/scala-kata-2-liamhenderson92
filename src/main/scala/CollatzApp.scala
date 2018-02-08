@@ -15,7 +15,7 @@ object CollatzApp extends App {
 
 }
 
-  val enteredNumber = StdIn.readLine("Enter a number: ").toInt
+  val enteredNumber = StdIn.readLine("Welcome to the Collatz Application\n\nEnter a number to start with: ").toInt
   println(collatz(enteredNumber))
 
 }
